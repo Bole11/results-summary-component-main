@@ -1,0 +1,159 @@
+body{   
+        font-family: 'Hanken Grotesk', sans-serif;;
+        margin: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.first{
+    width: 100%;
+    height: 350px; 
+    background: linear-gradient(rgba(89, 61, 249, 0.89),rgb(51,45,233));
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+    
+}
+
+.second{
+    width: 100%;
+    height: 350px;
+    box-shadow: 10px 5px 5px hsl(228, 27%, 85%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(rgba(73, 39, 208, 0.767),rgb(70,51,237));
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+h2{
+    color: white;
+    margin: 0%;
+}
+
+h1{
+    color: white;
+    margin: 15px 0 0 0;
+    font-size: 50px;
+}
+h6{
+    margin: 0 0 25px 0;
+    color: rgba(208, 201, 255, 0.712);
+    font-size: 13px;
+}
+
+h4{
+    margin: 0 0 30px 0;
+    text-align: center;
+    color:rgba(208, 201, 255, 0.712);
+    font-size: 13px;
+}
+
+h3{
+    margin: 25px 0 0 0;
+    color: rgba(208, 201, 255, 0.712);
+}
+
+h5{
+    color: black;
+    margin: 30px 0 0 20px;
+    font-size: 15px;
+}
+
+.sum{
+    width: 80%;
+    height: 40px;
+    margin: 10px 0 3px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+
+img{
+    
+    padding: 5px;
+    width: 15px;
+}
+
+p{
+    font-size: 13px;
+    margin: 13px 40px 13px 5px;
+    padding: 5px;
+    
+    
+}
+
+h7{
+    font-size: 12px;
+    margin: 15px;
+
+    
+}
+
+button{
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(48,59,89);
+    border: 0;
+    color: white;   
+}
+
+button:hover{
+    background:linear-gradient(rgb(57,48,237),rgb(99,64,252));
+
+}
+
+@media(min-width:375px){
+    body{
+        max-width: 600px;
+        margin:10% 25% 10% 25%;
+        
+      
+    }
+    .main{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .first, .second{
+        border-radius: 20px;
+        
+    }
+
+}
+
